@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    color: white;
+    margin: 25px 25px 25px 10px;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    font-size: 1.5em;
+    width: 350px;
+}
+li{
+    background-color: rgb(211, 211, 211);
+    padding: 18px;
+    margin: 4px;
+}
+li:hover{
+    font-size: 1.1em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

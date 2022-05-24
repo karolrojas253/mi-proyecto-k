@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+.container-flex-1{
+    display: flex;
+    background-color: #F9E79F;
+    flex-wrap: nowrap;
+
+}
+.container-flex-2{
+    display: flex;
+    background-color: #F9E79F;
+    flex-wrap: wrap;
+    
+}
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: #AED6F1;
+    margin: 20px;
+    font-size: 1.5em;
+    color: black;
+}

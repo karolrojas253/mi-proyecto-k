@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/peliculas.css">
+  <title> PELICULAS</title>
+  <script src="peliculas.js"></script>
+</head>
+
+<body>
+  <h3>al dar click sobre la imagen, llamamos la fuincion para desaparerla</h3>
+  <img id="jhon-1" src="img/jhon wick larga.jpg" onclick="hacer_invisible();"> <br>
+  <img id="jhon-portada" src="img/jhon portada .jpg"><br>
+
+
+  <h3>Intercambiando imagenes haciendo mouseover</h3>
+  <img id="dama" src="img/4.jpg" onmouseover="intercambiar();" onmouseleave="retornar();">
+  <img src="img/3.jpg" alt=""><br>
+  <!--   <img src="img/you larga.jpg" alt=""> -->
+
+
+
+<!--   <img id="dama" src="img/you portada.jpg" onmouseover="intercambiar();" onmouseleave="retornar();"> -->
+  <img id="dama" src="img/you portada.jpg" onmouseover="interConArg(id, 'jhon-portada');">
+
+  <img id="dama" src="img/4.jpg" width="297px">
+  <img src="img/oscuro deseo.jpg" width="297px">
+  <img src="img/you larga.jpg" alt="" width="297px">
+  <img src="img/jhon wick larga.jpg" alt="" width="297px">
+  <img src="img/titanit.jpg" alt="" width="297px">
+</body>
+
+</html>

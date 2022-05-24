@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+}
+ul{
+    font-size: 1.1em;
+    text-align: right;
+    background: #99A3A4  ;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 900;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+.menu-contactanos{
+margin-right: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+#nav-bar {
+    width: 100%;
+    position: absolute;
+}
+p {
+    font-size: 1.6em;
+    text-align: justify;
+}
+#content-main {
+    margin: 2em 5em;
+}

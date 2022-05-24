@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+
+    <link rel="stylesheet" href="css/carrito_compras.css">
+</head>
+
+<body>
+    <center>
+        <fieldset class="contenedorP">
+            <div class="contenedorP">
+                <div class="contenSutTotal">Subtotal:<label id="Subtotal" class="precio"></label></div>
+                <div class="conten1">Proceder al pago(<label id="numeroProductos">1 producto)</label></div>
+                <div class="conten2"><input type="checkbox" name="" id="">Envia como regalo. Devolución fácil</div>
+                <div class="imagen"><img src="img/amor.jpg" width="157px" alt=""></div><br>
+                <div class="descripcion"><br>
+                    <p> El amor en los tiempos del cólera es una novela del escritor colombiano Gabriel García Márquez,
+                        publicada en 1985. Es una novela dedicada al verdadero amor que perdura y supera las
+                        adversidades toda una vida. Es un homenaje al amor, las aventuras, el tiempo, la vejez y la
+                        muerte.</p>
+
+
+                    <label>COP:</label><label id="valorUnitario" class="precio"></label><br><br>
+                    <label class="disponible">Disponible</label>
+                </div><br><br>
+                <div class="botones">
+                    <input type="button" onclick="disminuirPedido()" value="-">
+                    <label id="cantidadElementos">1</label>
+                    <input type="button" onclick="aumentarPedido()" value="+">
+                </div><br><br>
+                <div class="btnEliminar">
+                    <input type="button" value="Eliminar">
+                </div>
+                <div class="guardar"><input type="button" value="Guardar para mas tarde"></div>
+                <div class="texto"><a href="#">Comparar con articulos similares</a></div>
+            </div>
+            <script src="js/carrito_compras.js"></script>
+        </fieldset>
+    </center>
+</body>
+
+</html>

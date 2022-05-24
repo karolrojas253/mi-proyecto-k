@@ -1,0 +1,20 @@
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8 {
+    width: 200;
+    height: 250px;
+    display: inline-block;
+    margin: 25px;
+    line-height: 0;
+    margin-bottom: 50px;
+    font-size: 26px;
+    margin: 25px;
+ }
+
+.imgMari {
+  width: 800px;
+  height: 2500px;
+}
+.pImg{
+  width: 1000;
+  height: 30px;
+}

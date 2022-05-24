@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-offline.css">
+    <title>BOOTSTRAP</title>
+</head>
+<body>
+    <h1>Bootstrap - Elemento basico</h1>
+        <h2>Container</h2>
+            <h3>¡Container!</h3>
+         <div class="container style-container">
+         container
+        </div>
+                
+        <h3>¡Container! SM</h3>
+        <div class="container-sm style-container">
+        container-sm
+        </div>
+
+        <h3>¡Container! MD</h3>
+        <div class="container-sm style-container">
+        container-md
+        </div>
+
+        <h3>¡Container! LG</h3>
+        <div class="container-lg style-container">
+        container-lg
+        </div>
+
+        <h3>¡Container! XL</h3>
+        <div class="container-xl style-container">
+        <container-xl></container-xl>
+        </div>
+
+        <h3>¡Container! XXL</h3>
+        <div class="container-xxl style-container">
+        container-xxl
+        </div>
+
+        <h3>¡Container! FLUIDO</h3>
+        <div class="container-fluid style-container">
+        container-fluid
+        </div>
+
+<br><br>
+        <h2>Comlumnas</h2>
+        <div class="row style-row">
+            <div class="col style-col">Col - 1</div>
+            <div class="col style-col">Col - 2</div>
+            <div class="col style-col">Col - 3</div>
+            <div class="col style-col">Col - 4</div>
+            <div class="col style-col">Col - 5</div>
+            <div class="col style-col">Col - 6</div>
+            <div class="col style-col">Col - 7</div>
+            <div class="col style-col">Col - 8</div>
+            <div class="col style-col">Col - 9</div>
+            <div class="col style-col">Col - 10</div>
+            <div class="col style-col">Col - 11</div>
+            <div class="col style-col">Col - 12</div>
+        </div>
+
+<br><br>
+        <h2>Comlumnas</h2>
+        <div class="row style-row">
+            <div class="col-2 style-col">Col - 1</div>
+            <div class="col-1 style-col">Col - 2</div>
+            <div class="col-4 style-col">Col - 3</div>
+            <div class="col-1 style-col">Col - 4</div>
+            <div class="col-1 style-col">Col - 5</div>
+            <div class="col-3 style-col">Col - 6</div>
+        </div>
+
+<br><br>
+        <h2>Formulario Basico con Bootstrap</h2>
+        <div class="container">
+            <div class="row">
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su nombre">
+                </div>
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su apellido.">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su telefono.">
+                </div>
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su direccion..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su correo electronico.">
+                </div>
+                <div class="mb-3 col-6 ">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Por favor, ingrese su municipio de recidencia.">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>           
+         </div>
+
+<br><br>
+         <h2>File input</h2>
+         <div class="container">
+         <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+          </div>
+        </div>
+
+<br><br>
+<h2>Detalist</h2>
+<div class="container style-container-2">
+    <label for="exampleDataList" class="form-label">Seleccione su recidencia</label>
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+    <datalist id="datalistOptions">
+        <option value="San Francisco">
+        <option value="New York">
+        <option value="Seattle">
+        <option value="Los Angeles">
+        <option value="Chicago">
+</datalist>
+</div>
+
+<br><br>
+<h2>Select</h2>
+<div class="container style-container-2">
+    <label>Ingrese su localidad</label>
+    <select class="form-select" aria-label="Default select example">
+    <option value="1">Kennedy</option>
+    <option value="2">Rafael Uribe</option>
+    <option value="3">Chapinero</option>
+</select>
+</div>
+
+<br><br>
+<h2>Check</h2>
+<div class="container style-container-2">
+    <label>Seleccion el o los lenguajes de programacion que utiliza actualmente</label>
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      JavaScript
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      Angular
+    </label>
+  </div>
+</div>
+
+<br><br>
+<h2>Radio</h2>
+<div class="container style-container-2">
+    <label>Seleccion el o los lenguajes de programacion que utiliza actualmente</label>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+      Base de datos
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Java
+    </label>
+  </div>
+</div>
+
+<br><br>
+<h2>Floating Labels</h2>
+<div class="container container-style">
+  <div class="row">
+  <div class="form-floating mb-3 col-6">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Nombre</label>
+  </div>
+  <div class="form-floating col-6">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword">Apellido</label>
+  </div>
+  <div class="form-floating mb-3 col-5">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Direccion de residencia</label>
+  </div>
+  <div class="form-floating col-4">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword">Ingrese su numero</label>
+  </div>
+  <div class="form-floating col-3">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword">Municipio donde reside</label>
+  </div>
+</div>
+  </div>
+
+<br><br>
+<h2>Validation</h2>
+<div class="container container-style">
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+    <div class="valid-feedback">
+      Parece correcto!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+    <div class="valid-feedback">
+      Parece correcto!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Usuario</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Porfavor ingrese su usuario.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">Municipio</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Porfavor ingrese su municipio.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">Departamento</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Seleccion</option>
+      <option>Bogota</option>
+      <option>Saladoblanco</option>
+      <option>Cali</option>
+      <option>Pitalito</option>
+    </select>
+    <div class="invalid-feedback">
+      Porfavor seleccione su departamento.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Telefono</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Porfavor ingrese su telefono.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Aceptar terminos y condiciones.
+      </label>
+      <div class="invalid-feedback">
+        Usted debe aceptar terminos y condiciones para poder continuar.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Registrar Usuario</button>
+  </div>
+</div>
+</form>
+
+<br><br>
+<h2>Accordion</h2>
+<div class="container container-style">
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<h2>Alert</h2>
+<div class="container container-style">
+<div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">¿Esta seguro que desea hacer la compra?</button>
+</div>
+
+<br><br>
+<h2>Positioned</h2>
+<div class="container container-style">
+<button type="button" class="btn btn-dark position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+</div>
+
+<br><br>
+<h2>Breadcrumb</h2>
+<div class="container container-style">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+  </nav>
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+  </nav>
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+</div>
+
+<br><br>
+<h2>Buttons</h2>
+<div class="container container-style">
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+</div>
+
+<br><br>
+<h2>Button group</h2>
+<div class="container container-style">
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-primary">1</button>
+    <button type="button" class="btn btn-primary">2</button>
+  
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<br><br>
+<h2>Button group</h2>
+<div class="container container-style">
+  <div class="card" style="width: 18rem;">
+    <img src="img/mansion.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<br><br>
+<h2>Positioned</h2>
+<div class="container container-style">
+<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/gato casa.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/baño gris.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/baño.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<br><br>
+<h2>Close button</h2>
+<div class="container container-style">
+  <button type="button" class="btn-close" aria-label="Close"></button>
+</div>
+
+<br><br>
+<h2>Collapse</h2>
+<div class="container container-style">
+  <p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="card card-body">
+          Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br>
+<h2>Dropdowns</h2>
+<div class="container container-style">
+  <div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Action
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </div>
+</div>
+
+<br><br>
+<h2>List group</h2>
+<div class="container container-style">
+  <ul class="list-group">
+    <li class="list-group-item active" aria-current="true">An active item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+</div>
+
+<br><br>
+<h2>Modal</h2>
+<div class="container container-style">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br><br>
+<h2>Popovers</h2>
+<div class="container container-style">
+  <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+</div>
+</div>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
+                                            

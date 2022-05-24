@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-size: 2em;
+    border-collapse: collapse;
+    margin: 25px auto;
+}
+th, td {
+    border: 1px solid #A3E4D7 ;
+    padding: 11px;
+    text-align: center;
+
+}
+.cuadros{
+    background-color: #D5F5E3
+}
+.cantidad {
+    width: 81%;
+}
+.head-paquete {
+    background: #D5F5E3;
+    font-weight: 900;
+}
+.head-cantidad {
+   background: #D5F5E3;
+}
+.head-Día-Lunes {
+background: #D5F5E3;
+}
+.head-Día-Martes {
+background: #D5F5E3;
+}
+.head-Día-Miercoles {
+    background: #D5F5E3;
+}
+.head-Día-Jueves {
+    background: #D5F5E3;
+}
+.head-Día-Viernes {
+    background: #D5F5E3;
+}

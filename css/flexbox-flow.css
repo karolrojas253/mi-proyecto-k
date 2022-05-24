@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.container-flex-1{
+    display: flex;
+    background-color: #76D7C4;
+    flex-flow: row wrap;
+
+}
+.container-flex-2{
+    display: flex;
+    background-color: #76D7C4;
+    flex-flow: row nowrap;
+    height: 400px;
+    
+}
+.container-flex-3{
+    display: flex;
+    background-color: #76D7C4;
+    flex-flow: column wrap;
+    
+}
+.container-flex-4{
+    display: flex;
+    background-color: #76D7C4;
+    flex-flow: column nowrap;
+    height: 400px;
+}
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: #F9E79F ;
+    margin: 20px;
+    font-size: 1.5em;
+    color: black;
+}

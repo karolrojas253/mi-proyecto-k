@@ -1,0 +1,93 @@
+* {
+    margin:0;
+    padding: 0;
+}
+ul{
+    font-size: 1.1em;
+    text-align: right;
+    background: #99A3A4  ;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 900;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+.menu-contactanos{
+margin-right: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 1.05em;
+
+}
+h2 {
+    text-align: center;
+    background-color:rgb(blue);
+}
+div {
+margin-top: 30px;
+margin-bottom: 30px;
+width: 100%;
+height: 100vh;
+}
+
+.content-1 {
+    background-image: url("../img/cont-1.jpg");
+   
+}
+.content-2 {
+    background-image: url("../img/cont-2.jpg");
+    background-repeat: repeat-x;
+
+}
+.content-3 {
+    background-image: url("../img/cont-3.jpg");
+   
+    background-repeat: repeat-y;
+    
+}
+.content-4 {
+    background-image: url("../img/cont-4.jpg");
+    background-repeat: no-repeat;
+    
+}
+.content-5 {
+    background-image: url("../img/cont-5.jpg");
+    background-repeat: no-repeat; 
+    background-size:900X 506px;
+ }
+ .content-6 {
+    background-image: url("../img/cont-13.jpg");
+    background-repeat: no-repeat; 
+    background-size: 900px;
+}
+.content-7{
+        background-image: url("../img/dormi1200x800.jpg");
+        background-repeat: no-repeat; 
+        background-size: 100%;
+     }
+.content-8{
+        background-image: url("../img/cont-8.jpg");
+        background-repeat: no-repeat; 
+        background-size: auto;
+     }
+ .content-9{
+        background-image: url("../img/cont-9.jpg");
+        background-repeat: no-repeat; 
+        background-size: contain;
+     }
+.content-10{
+        background-image: url("../img/cont1224x333.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+     }
+.content-11{
+        background-image: url("../img/cont-21.jpg");
+        background-repeat: no-repeat; 
+        background-position: center bottom;
+     }

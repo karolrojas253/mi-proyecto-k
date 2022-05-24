@@ -1,0 +1,24 @@
+.contenedor-azul{
+    width: 200px;
+    height: 200px;
+   /*  background-color: steelblue; */
+    color: black;
+    margin-bottom: 25px;
+}
+.contenedor-golden{
+    width: 200px;
+    height: 200px;
+   /*  background-color: goldenrod; */
+    color: black;
+    margin-bottom: 25px;
+}
+.contenedor-visible {
+    display: block;
+}
+.contenedor-oculto{
+    display: none;
+}
+#cerrarContent1{
+    display: block;
+    text-align: right;
+}

@@ -1,0 +1,36 @@
+.toyota1-visible{
+    position: fixed;
+    left: 0;
+}
+.toyota3-visible{
+    position: fixed;
+    left: 0;
+}
+.toyota1-oculta{
+    position: fixed;
+    left: -100%;
+}
+.toyota3-oculta{
+    position: fixed;
+    left: 100%;
+}
+.flecha{
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    
+ 
+}
+
+.mi-circulo{
+    width: 160px;
+    height: 160px;
+    background-color: darkblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+}

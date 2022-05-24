@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    font-size: 0.9em;
+    text-align: right;
+    background: #99A3A4  ;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 1200px;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 30px;
+}
+.menu-contactanos{
+margin-right: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 1.05em;
+
+}
+
+

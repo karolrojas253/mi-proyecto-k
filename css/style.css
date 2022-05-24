@@ -1,0 +1,113 @@
+/* Clase de Elemento */
+h1 {
+    font-size: 60px;
+    color: palegoldenrod;
+}
+/* Clase no atada a ningun elemnto */
+.centrado{
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+/* Clase atada a un Elmento */
+p.color-fuente{
+    color: pink;
+    text-align: center;
+    font-size: 30px;
+}
+h3.centrado{
+    color: pink;
+    text-align: center;
+    font-size: 30px;
+}
+h2.centrado{
+        text-align: center;
+        color: pink;
+        text-align: 30px;
+}
+p.centrado{
+    text-align: center;
+    color: rgb(176, 196, 222);
+    font-size: 30px;
+}
+.centrado{
+    display: block;
+    margin: 0 auto 0 auto;   
+    align-content: center;
+}
+.color-1{
+    color: rgb(211, 211, 211);
+    text-align: center;
+    font-size: 30px;
+}
+h2.color-8{
+    color: rgb(218, 247, 166);
+    text-align: center;
+    font-size: 30px;
+}
+.color-2{
+    color: paleturquoise;
+    text-align: center;
+    font-size: 30px;
+}
+.color-3{
+    color: #48D1CC;
+    text-align: center;
+    font-size: 30px;
+}
+.color-4{
+    color: #8FBC8B;
+    text-align: center;
+    font-size: 30px;
+}
+.color-5{
+    color: #66CDAA;
+    text-align: center;
+    font-size: 30px;
+}
+p.fuente-enlace{
+    text-align: center;
+    font-size: 45px;
+}
+p.fuente-Give You Glory{
+    font-family: 'Give You Glory' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+p.fuente-Italianno{
+    font-family: 'Italianno', Arial, Helvetica, sans-serif ;
+    font-size: 4em;
+    text-align: center;
+    color: cadetblue;
+    font-weight: 900;
+}
+/* italianno-regular - latin */
+@font-face {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/italianno-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/italianno-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/italianno-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/italianno-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/italianno-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/italianno-v10-latin-regular.svg#Italianno') format('svg'); /* Legacy iOS */
+  }
+  .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8 {
+      width: 200;
+      height: 250px;
+      display: inline-block;
+      margin: 25px;
+      line-height: 0;
+      margin-bottom: 50px;
+      font-size: 26px;
+      margin: 25px;
+   }
+
+  .imgMari {
+    width: 800px;
+    height: 2500px;
+  }
+  .pImg{
+    width: 1000;
+    height: 30px;
+  }
+ 

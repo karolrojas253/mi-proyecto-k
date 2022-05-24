@@ -1,0 +1,30 @@
+
+ul{
+    top: 200px;
+    left: 0;
+    position: fixed;
+    background-color: rgb(211, 211, 211, 0.5);
+    width: 98%;
+    color: white;
+    font-size: 1.6em;
+    text-align: right;
+    
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+.content-main{
+    margin-left:  40px;
+    margin-right: 40px;
+
+}
+.img-user{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
